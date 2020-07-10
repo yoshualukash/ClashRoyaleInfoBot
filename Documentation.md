@@ -45,23 +45,23 @@ ClashRoyaleInfoBot
 File: Function.py
 Function | Access Level | Parameter | Return
 -------- | ------------ | --------- | ------
-check_code | public | code | new code after checked
-players_info | public | players code | players info and its dataframe
-see_players_info | public | players code | None
-deck_average_elix | public | card list | deck average elixir
-players_current_deck | public | players code | plot the current deck
-check_chest_image | public | chest | plt.imread version of the image
-see_player_upcoming_chests | public | players code | plot the upcoming chest
-get_members_pb | public | clan code | list of members PB trophies
-see_clan_members_info | public | clan code | data frame of clan members info table
-save_clan_members_info_pdf | public | clan code | pdf file version of the clan members info table
-sort_clan_members_byPB | public | clan code | data frame of clan members info table sorted by its PB
-clan_high_donation | public | clan code | data frame table of Top 10 Donation of the clan
-save_clan_members_high_donation_pdf | public | clan code | pdf file version of top 10 donation
-clan_low_donation | public | clan code | data frame table of Top 10 Lowest Donation of the clan
-save_clan_members_low_donation_pdf | public | clan code | pdf file version of top 10 lowest donation
-see_clan_warlog | public | clan code | data frame table of latest war log table
-save_clan_warlog_pdf | public | clan code | pdf file version of latest war log table
+check_code | public | code : str | new code after checked
+players_info | public | players code : str | players info and its dataframe
+see_players_info | public | players code : str | None
+deck_average_elix | public | card list : list | deck average elixir
+players_current_deck | public | players code : str | plot the current deck
+check_chest_image | public | chest : list | plt.imread version of the image
+see_player_upcoming_chests | public | players code : str | plot the upcoming chest
+get_members_pb | public | clan code : str | list of members PB trophies
+see_clan_members_info | public | clan code : str | data frame of clan members info table
+save_clan_members_info_pdf | public | clan code : str | pdf file version of the clan members info table
+sort_clan_members_byPB | public | clan code : str | data frame of clan members info table sorted by its PB
+clan_high_donation | public | clan code : str | data frame table of Top 10 Donation of the clan
+save_clan_members_high_donation_pdf | public | clan code : str | pdf file version of top 10 donation
+clan_low_donation | public | clan code : str | data frame table of Top 10 Lowest Donation of the clan
+save_clan_members_low_donation_pdf | public | clan code : str | pdf file version of top 10 lowest donation
+see_clan_warlog | public | clan code : str | data frame table of latest war log table
+save_clan_warlog_pdf | public | clan code : str | pdf file version of latest war log table
 
 File: Command.py
 Function | Access Level | Parameter | Return
