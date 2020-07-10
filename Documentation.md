@@ -20,6 +20,7 @@ ClashRoyaleInfoBot
 ┃ ┣ players_current_deck
 ┃ ┣ check_chest_image
 ┃ ┣ see_player_upcoming_chests
+┃ ┣ get_members_pb 
 ┃ ┣ see_clan_members_info
 ┃ ┣ save_clan_members_info_pdf
 ┃ ┣ sort_clan_members_byPB
@@ -61,5 +62,15 @@ clan_low_donation | public | clan code | data frame table of Top 10 Lowest Donat
 save_clan_members_low_donation_pdf | public | clan code | pdf file version of top 10 lowest donation
 see_clan_warlog | public | clan code | data frame table of latest war log table
 save_clan_warlog_pdf | public | clan code | pdf file version of latest war log table
+
+File: Command.py
+Function | Access Level | Parameter | Return
+-------- | ------------ | --------- | ------
+cmd_player_info | public | None | run a command that the user pick
+cmd_clan_info | public | None | run a command that the user pick
+cmd_loop | public | None | None | run a loop command
+cmd_loop_clan | public | None | run a loop command
+cmd_input | public | None | run welcome command
+cmd_exit | public | None | exit the command
 ## Statistics
 The line that i made in all these files are **519** lines
